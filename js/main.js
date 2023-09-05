@@ -58,7 +58,7 @@ function calculate () {
         };
     });
     
-    calcPrice.textContent = result.toLocaleString('ru-RU');
+    calcPrice.textContent = result.toLocaleString('ru-RU') + ' ₽';
 };
 calculate();
 
@@ -74,7 +74,7 @@ inputSquare.addEventListener('input', function() {
 
 inputs.forEach(function (item) {
     item.addEventListener('input', function() {
-        calcPrice.textContent = result.toLocaleString('ru-RU');
+        calcPrice.textContent = result.toLocaleString('ru-RU') + ' ₽';
         calculate();
     });
 });
