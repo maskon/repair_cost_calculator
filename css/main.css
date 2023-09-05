@@ -149,16 +149,13 @@ h6 {
     align-items: flex-start;
 }
 
-.radio-wrapper .radio {
-	margin-top: 9px;
-}
-
 .radio-wrapper:not(:last-child) {
 	margin-bottom: 15px;
 }
 
 .radio-wrapper .radio {
 	margin-right: 15px;
+	margin-top: 6px;
 }
 
 .input-wrapper {
@@ -195,6 +192,11 @@ h6 {
     .heading-title {
         font-size: 26px;
     }
+    
+    .radio-wrapper .radio {
+        margin-top: 4px;
+    }
+
 }
 
 /* ------------ TYPO ------------ */
